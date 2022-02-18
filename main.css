@@ -1,0 +1,29 @@
+.container{
+
+}
+
+.container .heroes{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: orange;
+    justify-content: center;
+    max-width: 700px;   
+    /* 최대너비, viewport가로넓이에 따라 줄어들기도 가능
+    width 사용시 고정너비라 viewport에 따라 가로가 잘림 */
+    margin: 0 auto;
+    /* blcok요소에 좌우사이즈가 존재하는 상태에서 margin:auto 시 요소가 가운데정렬 */
+    padding: 40px 20px;
+
+}
+
+.container .heroes .hero{
+    width: 80px;
+    height: 84px;
+    background-color: #555;
+    margin: 4px;
+
+}
+
+.container .heroes .hero .image{
+
+}
