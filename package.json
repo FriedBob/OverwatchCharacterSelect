@@ -1,0 +1,27 @@
+{
+  "name": "overwatch",
+  "version": "1.0.0",
+  "description": "- 결과물 ![enter image description here](https://github.com/FriedBob/OverwatchCharacterSelect/blob/main/result.png?raw=true)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FriedBob/OverwatchCharacterSelect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FriedBob/OverwatchCharacterSelect/issues"
+  },
+  "homepage": "https://github.com/FriedBob/OverwatchCharacterSelect#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}
